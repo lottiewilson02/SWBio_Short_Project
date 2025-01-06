@@ -24,11 +24,9 @@ Use of this code will allow the following functions to be carried out for your r
 3. Create the file containing the sequences required for alignment. This must be in fasta format!
 4. Edit the URL link to reach the correct file containing the sequences. This may also be edited to import the file from a directory.
 5. Edit the filename code to your desired file name - ensure this is consistent throughout the script if edited.
+6. Following this, the script will display the titles of each sequence - check this to ensure all sequences are present.
+7. Run the script - this will convert the sequences into a string, and then run a subprocess to perform the alignment. The displayed output following this will show the head of each aligned sequence, ready for export.
+8. The script will then display the length of each aligned sequence. Check will all be the same as the others for a successful alignment. 
 
-
-
-
-
-
-
-The script was tested using the "Sequences_Fasta2.fa" file in this repository, with a segment of the "Glen Ample" sequence for the testing of the complementation to the GC content functions section. This file can be downloaded for use alongside the script
+## Testing of the script
+During production,the "Alignment of multiple sequences" script section was tested using the "Sequences_Fasta2.fa" file in this repository, with a segment of the "Glen Ample" sequence from this file used to test the "Simple tools for sequence investigation" section. This file can be downloaded from this repository for use alongside the script if you wish to test the script with alternative data prior to using your own.
