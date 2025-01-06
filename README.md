@@ -13,7 +13,7 @@ Use of this code will allow the following functions to be carried out for your r
 
 ## How to run - Simple tools for sequence investigation
 1. Download the script from this repository.
-2. Ensure all the modules at the start of the script are successfully loaded. The script will require BioPython to run correctly - if not already installed this can be carried out using the "pip install biopython" command in the command line. The script will also require installation of MAFFT. If not already installed, this can also be completed in the command line using "conda install -c bioconda mafft".
+2. Ensure all the modules at the start of the script are successfully loaded. The script will require BioPython to run correctly - if not already installed this can be carried out using the "pip install biopython" command in the command line.
 3. For the "simple tools for sequence investigation" section, input your chosen DNA sequence into the "DNA_input" line.
 4. The script can then be run for any of the desired functions. The output for each function will be displayed underneath the respective section of the code.
 5. For the GC% result, the output is displayed without units, however it is a percentage value of the sequence.
